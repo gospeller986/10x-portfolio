@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return ( 
-    <footer className=" sticky bottom-0 w-full " >
+    <footer className="  md:fixed fixed bottom-0 w-full " >
     <div className=" justify-center items-center  sm:ml-0" >
       <div className=" lg:w-[100%] ">
         <div className="bg-gradient-to-r from-black via-gray-500 to-black pt-[1px] z-50 relative">

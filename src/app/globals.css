@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .title-container {
   line-height: 1;
   font-weight: 800;

@@ -4,6 +4,7 @@ import React from "react";
 
 import github from "@/assets/github.svg"
 import Laptop from "./Laptop";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -41,17 +42,21 @@ function HeroSection() {
       
       <div className="w-full flex justify-center flex-row items-center mt-10">
            <div className="select-none flex flex-col w-full justify-center px-[10%] sm:px-0 sm:flex-row gap-x-10 gap-y-6" >
-                 <a href="/#projects">
+                 <a href="#projects">
                     <div>
                         <div>
+                        
                             <div className="z-[20] relative dripping-btn group cursor-pointer duration-200 flex flex-row items-center justify-center font-[500]  px-[30px] py-[10px] bg-white text-black rounded-[5px]" >
+                                
                                 <div>❖</div>
                                 <div >Projects</div>
+                               
                             </div>
+                            
                         </div>
                     </div>
                  </a>
-                 <a href="/#contact" >
+                 <a href="https://github.com/gospeller986" >
                     <div className="h-full w-full">
                         <div className="relative bg-white  px-[2px] py-[1px] h-full w-full cursor-pointer duration-200 flex flex-row items-center justify-center font-[500]   text-black rounded-[5px]">
                              <div className="develop-animated-border-btn h-full w-full rounded-[5px] items-center justify-center" ></div>

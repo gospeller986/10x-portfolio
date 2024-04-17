@@ -9,20 +9,20 @@ import Testimonials from "@/components/Testimonials";
 export default function Home() {
   return (
           <> 
-           <div className=" scroll-smooth ">
+           <div className=" scroll-smooth  ">
            <HeroSection/>
            <div className="hidden md:block">
                <Laptop/>
            </div> 
-           <div>
-           <Projects/>
+           <div id="projects">
+           <Projects  />
            </div>
                     
            <Skills/>
            <div>
              <Testimonials/>
            </div>
-            <div> 
+            <div className="" > 
               <Contact/>
             </div>
 
