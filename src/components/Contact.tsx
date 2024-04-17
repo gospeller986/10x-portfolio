@@ -8,12 +8,12 @@ function Contact() {
     <>
       <div className="items-center , justify-center">
         <div className=" text-center lg:text-9xl md:text-7xl text-5xl text-white font-bold py-5 ">
-          Lets Talk
+          Let&apos;s Talk
         </div>
         <div className=" items-center justify-center text-center flex flex-col md:flex-row gap-4 ">
           <button
             type="button"
-            className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium  text-sm px-5 py-5 text-center inline-flex items-center focus:ring-gray-500 hover:bg-[#050708]/30 me-2 mb-2 rounded-3xl "
+            className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium  text-sm px-5 py-5 text-center inline-flex items-center focus:ring-gray-500  me-2 mb-2 rounded-3xl "
           >
             <svg
               className="w-4 h-4 me-2"
@@ -99,7 +99,7 @@ const dummyContent = [
           Have the next big Idea that you want to bring to life ? You are
           probably in the right place , Book a call with me @
           palsatyajit986@gmail.com or +91-8328967101 and discuss your project
-          with all the expectations you have. Don't worry , its Completely Free
+          with all the expectations you have. Don&apos;t worry , its Completely Free
           . Zero hassle Guaranteed ✅.
         </p>
         <p>
@@ -118,7 +118,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          If you're ready to take the next step, I'd love the opportunity to
+          If you&apos;re ready to take the next step, I&apos;d love the opportunity to
           work with you and help you achieve your objectives. Lets discuss your
           budget 💸 and the time you are willing to give for your project .
         </p>

@@ -35,7 +35,7 @@ function HeroSection() {
       </div>
       <div className="mt-5 sm:mt-10 text-center flex justify-center w-full sm:text-xl text-[#9b9b9b]">
         <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%]" >
-        Hey, I'm Satya, your go-to Developer for creating seamless Software experiences . Have an amazing idea ?? Let's bring it to life!
+        Hey, I&apos;m Satya, your go-to Developer for creating seamless Software experiences . Have an amazing idea ?? Let&apos;s bring it to life!
         </div>
       </div>
       
