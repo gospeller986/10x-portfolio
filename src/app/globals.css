@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,8 +26,495 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.title-container {
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -.06em;
 }
+
+.animated-develop {
+  filter: contrast(1.2);
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  position: relative;
+  animation: animationFade-develop 8s ease infinite normal none running;
+  animation-delay: 0s;
+  z-index: 1;
+  
+}
+
+.animated-develop, .develop:before {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+.develop {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.preview-shadow, .ship {
+  padding-left: .05em;
+  padding-right: .05em;
+  position: relative;
+  bottom: 50px;
+    filter: blur(50px);
+    height: 20px;
+    width: 100%;
+    z-index: 0;
+}
+.develop:before {
+  content: "Contact.";
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+*, :after, :before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+:after, :before {
+  --tw-content: "";
+}
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+.animated-develop:after {
+  height: 3px;
+  width: 100px;
+  z-index: 1;
+}
+.animated-develop:after, .develop-shadow {
+    padding-left: .05em;
+    padding-right: .05em;
+    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    position: relative;
+    animation: animationFade-develop 8s ease infinite normal none running;
+    animation-delay: 0s;
+}
+
+
+.preview {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding-left: .05em;
+    padding-right: .05em;
+} 
+.animated-preview, .preview-shadow {
+  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  animation: animationFade-preview 8s ease infinite normal none running;
+  animation-delay: 0s;
+}
+
+.animated-preview {
+  filter: contrast(1.2);
+  position: relative;
+  z-index: 1;
+}
+
+.animated-preview, .preview:before {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+
+.preview:before {
+  content: "Build.";
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.preview1 {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding-left: .05em;
+  padding-right: .05em;
+} 
+.animated-preview1, .preview-shadow1 {
+background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+animation: animationFade-ship 8s ease infinite normal none running;
+animation-delay: 0s;
+}
+
+.animated-preview1 {
+filter: contrast(1.2);
+position: relative;
+z-index: 1;
+}
+
+.animated-preview1, .preview1:before {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-left: .05em;
+padding-right: .05em;
+}
+
+.preview1:before {
+content: "Build.";
+position: absolute;
+display: block;
+width: 100%;
+text-align: center;
+margin-bottom: -10px;
+top: 0;
+bottom: 0;
+left: 0;
+z-index: 0;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+} 
+
+.ship {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.preview-shadow, .ship {
+  padding-left: .05em;
+  padding-right: .05em;
+  position: relative;
+} 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.animated-ship, .ship-shadow {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  animation: animationFade-ship 8s ease infinite normal none running;
+  animation-delay: 0s;
+} 
+.animated-ship {
+  filter: contrast(1.2);
+  position: relative;
+  z-index: 1;
+}
+
+.animated-ship, .ship:before {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+
+.ship-shadow {
+  position: absolute;
+  bottom: 50px;
+  filter: blur(50px);
+  height: 20px;
+  width: 100%;
+  padding-left: .05em;
+  padding-right: .05em;
+  position: relative;
+  z-index: 0;
+}
+
+.animated-ship, .ship-shadow {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  animation: animationFade-ship 8s ease infinite normal none running;
+  animation-delay: 0s;
+} 
+
+.animated-ship {
+  filter: contrast(1.2);
+  position: relative;
+  z-index: 1;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.animated-ship, .ship:before {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+
+.ship:before {
+  content: "Deliver.";
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.ship {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding-left: .05em;
+  padding-right: .05em;
+}
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+:after, :before {
+  --tw-content: "";
+}
+
+.develop-animated-border-btn, .telegram-border {
+  position: absolute;
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  filter: contrast(1.5);
+  z-index: 10;
+}
+
+.develop-animated-border-btn {
+  animation: animationFade-develop 8s ease infinite normal none running;
+  animation-delay: 0s;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.preview-animated-border-btn {
+  position: absolute;
+  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  animation: animationFade-preview 8s ease infinite normal none running;
+  filter: contrast(1.5);
+  animation-delay: 0s;
+  z-index: 1;
+} 
+
+.ship-animated-border-btn {
+  position: absolute;
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  animation: animationFade-ship 8s ease infinite normal none running;
+  filter: contrast(1.5);
+  animation-delay: 0s;
+  z-index: 1;
+} 
+
+.animated-shadow-border-develop, .telegram-shadow-border {
+  position: absolute;
+  height: 24px;
+  width: 120%;
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  filter: blur(50px);
+  z-index: 1;
+}
+
+.animated-shadow-border-develop {
+  animation: animationFade-develop 8s ease infinite normal none running;
+}
+
+.animated-shadow-border-preview {
+  position: absolute;
+  height: 24px;
+  width: 120%;
+  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  filter: blur(50px);
+  animation: animationFade-preview 8s ease infinite normal none running;
+  z-index: 1;
+}
+
+shadow-border-ship {
+  position: absolute;
+  height: 24px;
+  width: 100%;
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  filter: blur(50px);
+  z-index: 1;
+} 
+
+
+
+.animated-shadow-border-ship {
+  animation: animationFade-ship 8s ease infinite normal none running;
+}
+
+.skill {
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+@keyframes animationFade-develop   {
+  0%, 16.667%, 100% {
+     opacity: 1;
+  }
+  33.333%, 83.333% {
+    opacity: 0;
+}
+
+}
+
+@keyframes animationFade-preview   {
+  0%, 100% {
+    opacity: 0;
+} 
+33.333%, 50% {
+  opacity: 1;
+}
+16.667%, 66.667% {
+  opacity: 0;
+}
+}
+
+@keyframes animationFade-ship   {
+  0%, 50%, 100% {
+    opacity: 0;
+} 
+66.667%, 83.333% {
+  opacity: 1;
+}
+}
+
