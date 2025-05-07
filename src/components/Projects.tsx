@@ -17,26 +17,26 @@ export const products = [
     title: "Moonbeam",
     link: "https://glassyvault.netlify.app/",
     thumbnail:
-      "https://assets.materialup.com/uploads/fe3f2532-3090-4f8a-b59d-5c6e830181fe/preview.png",
+      "https://img.freepik.com/free-vector/intro-blockchain-technology-isometric-landing-page_107791-3994.jpg?t=st=1746622470~exp=1746626070~hmac=2b77bb1a6d32785276c639bc96b104bcec18ea37294fdc10db04ed25b28b8059&w=1380",
   },
   {
     title: "Wash Wise",
     link: "https://cursor.so",
     thumbnail:
-      "https://assets.materialup.com/uploads/f8b0f903-8ce1-45ca-9c65-6bd4e57020a2/preview.jpg",
+      "https://img.freepik.com/free-vector/flat-design-laundry-service-landing-page_23-2150998131.jpg?t=st=1746622283~exp=1746625883~hmac=50b96d83f21d9dd1e368bbfb15b64441b38303a37e7fcc46cab7c39a34c78646&w=1380",
   },
   {
     title: "Threads App Clone",
     link: "https://github.com/gospeller986/Threads-App",
     thumbnail:
-      "https://assets.materialup.com/uploads/0058a320-a9df-4d38-9e58-0fa98865d27c/preview.png",
+      "https://img.freepik.com/free-vector/gradient-logo-template-new-threads-social-media-application_23-2150730929.jpg?t=st=1746622907~exp=1746626507~hmac=83cc1f030671b1c2336c6b0b069ce417d859615951896e4093ad58a06a5ad88b&w=1380",
   },
 
   {
     title: "Glassy Vault : Safest Web3 WareHouse",
     link: "https://assets.materialup.com/uploads/fe3f2532-3090-4f8a-b59d-5c6e830181fe/preview.png",
     thumbnail:
-      "https://assets.materialup.com/uploads/fe3f2532-3090-4f8a-b59d-5c6e830181fe/preview.png",
+      "https://img.freepik.com/free-vector/intro-blockchain-technology-isometric-landing-page_107791-3994.jpg?t=st=1746622470~exp=1746626070~hmac=2b77bb1a6d32785276c639bc96b104bcec18ea37294fdc10db04ed25b28b8059&w=1380",
   },
   {
     title: "Editrix AI",
@@ -55,19 +55,19 @@ export const products = [
     title: "Code Green",
     link: "https://github.com/gospeller986/CODE-GREEN",
     thumbnail:
-      "https://assets.materialup.com/uploads/f53cf7c7-c351-46b2-808d-a00caed55944/preview.png",
+      "https://img.freepik.com/free-vector/wild-nature-landing-page-template_23-2148729309.jpg?t=st=1746622668~exp=1746626268~hmac=e7450682e82b8cf720aa02f612e7db8295a222747566de0609b3521d1308260a&w=1380",
   },
   {
     title: "Bakery Shop",
     link: "https://github.com/gospeller986/Bakery-Application",
     thumbnail:
-      "https://assets.materialup.com/uploads/f41a00dc-7beb-4873-a967-ae3ea4e32228/preview.png",
+      "https://img.freepik.com/free-psd/hand-drawn-bakery-concept-landing-page_23-2150527438.jpg?t=st=1746622578~exp=1746626178~hmac=e32958eaeba3e4b43133d19a8382bef796e2ebc186354d554b675548156ed3f4&w=1380",
   },
   {
     title: "Image Cartoonizer",
     link: "https://github.com/gospeller986/Image_Cartoonizer",
     thumbnail:
-      "https://assets.materialup.com/uploads/dc52d5db-7ac1-4ddd-9a93-068c42a1f586/preview.png",
+      "https://img.freepik.com/premium-vector/modern-flat-design-concept-business-analysis-with-characters-business-meeting-viewing-data_1026586-622.jpg?w=826",
   },
   {
     title: "Medical Natural Language Processing Model",
@@ -86,25 +86,25 @@ export const products = [
     title: "Movie Booking App",
     link: "https://github.com/gospeller986/MovieBookingApp_ReacNative",
     thumbnail:
-      "https://assets.materialup.com/uploads/eb832650-68b5-46e4-be78-a305e439c0b2/preview.jpg",
+      "https://img.freepik.com/free-vector/cinema-movie-festival-landing-page-template_23-2149964735.jpg?t=st=1746623459~exp=1746627059~hmac=e47a5494551fba2f3091f64871fcc3ff9586fc1db847b43b4e846f67c7385860&w=1380",
   },
   {
     title: "Habit Tracker",
     link: "https://github.com/gospeller986/Habit-Tracker",
     thumbnail:
-      "https://assets.materialup.com/uploads/24747730-99a4-4569-90d5-7c684c40482a/preview.png",
+      "https://img.freepik.com/free-psd/flat-design-fitness-nutrition-template_23-2150221433.jpg?t=st=1746622806~exp=1746626406~hmac=cc8932cc7cdf011cd72a8e84b72a791d6b7d4e51632bbd49e7ef4c016701f655&w=1380",
   },
   {
     title: "Medic Odisha",
     link: "https://github.com/Medic-O-disha",
     thumbnail:
-      "https://assets.materialup.com/uploads/311df4a0-a9f3-47b0-93f8-56b40607d684/preview.png",
+      "https://img.freepik.com/free-vector/gradient-healthcare-establishment-landing-page_23-2149671703.jpg?t=st=1746623537~exp=1746627137~hmac=7cc26a61d7a452fd71a62a41751f62db88ce825134f817f3021daba00cd60ba7&w=1380",
   },
   {
     title: "Medical Natural Language Processing Model",
     link: "https://github.com/gospeller986/DSAI-Natural_Language_Processing",
     thumbnail:
-      "https://assets.materialup.com/uploads/94c27f07-5ee8-4559-a78f-cd6e6299683c/preview.jpg",
+      "https://img.freepik.com/free-vector/intro-blockchain-technology-isometric-landing-page_107791-3994.jpg?t=st=1746622470~exp=1746626070~hmac=2b77bb1a6d32785276c639bc96b104bcec18ea37294fdc10db04ed25b28b8059&w=1380",
   },
 ];
 
